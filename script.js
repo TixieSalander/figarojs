@@ -27,7 +27,7 @@ function intro1() {
 function intro2() {
     var user = element_from_array('utilisateurs');
     var gentils = element_from_array('gentils_singulier');
-    return ("En tant que " + user + ", ça me fait mal de voir ce qui arrive a " + gentils);
+    return ("En tant que " + user + ", ça me fait mal de voir ce qui arrive à " + gentils);
 }
 
 function intro3() {
