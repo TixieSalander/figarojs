@@ -1,0 +1,57 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header {
+    position: fixed;
+    width: 94%;
+    padding: 1em 3%;
+    color: #fff;
+    line-height: 1.5em;
+    text-align: center;
+    background: #3d7acc;
+    z-index: 2;
+    overflow: hidden;
+}
+header h1 {
+    float: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(55, 110, 184), 2px 2px rgb(55, 110, 184), 3px 3px rgb(55, 110, 184), 4px 4px rgb(55, 110, 184), 5px 5px rgb(55, 110, 184), 6px 6px rgb(55, 110, 184), 7px 7px rgb(55, 110, 184), 8px 8px rgb(55, 110, 184), 9px 9px rgb(55, 110, 184), 10px 10px rgb(55, 110, 184), 11px 11px rgb(55, 110, 184), 12px 12px rgb(55, 110, 184), 13px 13px rgb(55, 110, 185), 14px 14px rgb(55, 111, 186), 15px 15px rgb(56, 112, 187), 16px 16px rgb(56, 112, 188), 17px 17px rgb(56, 113, 189), 18px 18px rgb(57, 114, 190), 19px 19px rgb(57, 114, 191), 20px 20px rgb(57, 115, 192), 21px 21px rgb(58, 116, 194), 22px 22px rgb(58, 116, 195), 23px 23px rgb(58, 117, 196), 24px 24px rgb(59, 118, 197), 25px 25px rgb(59, 118, 198), 26px 26px rgb(59, 119, 199), 27px 27px rgb(60, 120, 200), 28px 28px rgb(60, 120, 201), 29px 29px rgb(60, 121, 202), 30px 30px rgb(61, 122, 204);
+}
+header h2 {
+    float: right;
+    font-size: 1.15em;
+}
+#wrapper {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+}
+#comment {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#commentcontent {
+    color: #003872;
+    font-size: 2em;
+    line-height: 1.3em;
+    text-align: center;
+}
+#links {
+    padding: 2em 0;
+    text-align: center;
+}
+#links a {
+    display: inline-block;
+    margin: 1em;
+    padding: 0.5em 1.5em;
+    color: #fff;
+    text-decoration: none;
+    background: #3d7acc;
+    border-radius: 0.5em;
+}
+#links a:hover {
+    background: #003872;
+}
