@@ -32,6 +32,8 @@ header h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 95%;
+    max-width: 60em;
 }
 #commentcontent {
     color: #003872;
