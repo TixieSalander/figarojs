@@ -8,7 +8,7 @@ function element_from_array(tableau) {
 }
 var utilisateurs = ["ouvrier", "paysan", "patron de ma PME", "chef d'entreprise", "expatrié en Suisse", "militaire"];
 var gentils_pluriel = ["les bons français", "les vrais français", "les français de souche", "les honnêtes français", "les vrais patriotes", "les français qui aiment leur pays"];
-var gentils_singulier = ["Nicolas Sarkozy", "Jean-François Copé", "Nadine Morano", "Alain Juppé", "Marine Le Pen", "Claude Guéant", "Patrick Balkany", "Eric Zemmour", "Alain Soral", "le général De Gaulle", "Jacques Chirac", "François Fillon"];
+var gentils_singulier = ["Nicolas Sarkozy", "Jean-François Copé", "Nadine Morano", "Alain Juppé", "Marine Le Pen", "Claude Guéant", "Patrick Balkany", "Eric Zemmour", "Alain Soral", "De Gaulle", "Jacques Chirac", "François Fillon"];
 var nous = ["la France qui se lève tôt", "la France qui bosse", "la vraie France", "la France chrétienne", "la France traditionelle"];
 var gentils_groupes = ["de l'UMP", "du FN", "du MEDEF", "de ma PME"];
 var mechants_pluriel = ["les gauchistes", "les bobos", "les gauchos", "les arabes", "les français de papiers", "les assistés", "les chômeurs", "les bien-pensants", "les musulmans", "les gauchos bobos"];
