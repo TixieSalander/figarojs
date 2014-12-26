@@ -57,3 +57,11 @@ header h2 {
 #links a:hover {
     background: #003872;
 }
+#subtitle {
+    color: #848484;
+    font-size: 0.9em;
+    text-align: center;
+}
+#subtitle a {
+    color: #848484;
+}
