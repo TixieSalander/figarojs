@@ -6,7 +6,8 @@
     <meta name="description" content="Un générateur (parodique) de commentaire du leFigaro.fr" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scape=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" />
     <link rel="stylesheet" type="text/css" href="reset.css" />
     <link rel="stylesheet" type="text/css" href="design.css" />
 </head>
@@ -22,32 +23,14 @@
             <div id="comment">
                 <div id="commentcontent">Chargement...</div>
                 <div id="links">
-                    <a href="javascript:window.location.reload()" title="Recharger la page">Un autre ?</a>
-                    <a href="http://twitter.com/intent/tweet?text=FigaroJS%20-%20Un%20g%C3%A9n%C3%A9rateur%20(parodique)%20de%20commentaire%20du%20leFigaro.fr&amp;url=http%3A%2F%2Ftheotix.github.io%2Ffigarojs%2F" title="Partager ce site sur Twitter" target="_blank">Tweet</a>
-                </div>
-                <div id="subtitle">Code source disponible sur <a href="https://github.com/theotix/figarojs" title="Dépôt Github">Github</a>
+                    <a href="javascript:void(0)" id="refresh" title="Recharger la page">Un autre ?</a>
+                    <a href="http://twitter.com/intent/tweet?text=FigaroJS%20%E2%80%94%20Un%20g%C3%A9n%C3%A9rateur%20(parodique)%20de%20commentaire%20du%20leFigaro.fr&amp;url=https%3A%2F%2Ffigarojs.github.com" title="Partager ce site sur Twitter" target="_blank">Tweet</a>
                 </div>
             </div>
         </div>
     </section>
 
     <script type="text/javascript" src="script.js"></script>
-    <script type="text/javascript">
-        WebFontConfig = {
-            google: {
-                families: ['Source+Sans+Pro::latin']
-            }
-        };
-        (function () {
-            var wf = document.createElement('script');
-            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-            wf.type = 'text/javascript';
-            wf.async = 'true';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(wf, s);
-        })();
-    </script>
 </body>
 
 </html>
